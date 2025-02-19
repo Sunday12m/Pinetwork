@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background-color: #6d287b;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Back Arrow */
+.back-button {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Wallet Title */
+.wallet-title {
+    font-size: 24px;
+}
+
+/* Container */
+.container {
+    margin-top: 20px;
+}
+
+/* Passphrase Box */
+.passphrase-box {
+    position: relative;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+.passphrase-box textarea {
+    width: 100%;
+    height: 150px; /* Increased height */
+    padding: 20px; /* Increased padding */
+    font-size: 20px; /* Increased font size */
+    border: none;
+    outline: none;
+    border-radius: 20px; /* Rounded corners */
+    background-color: #f8f8f8;
+    color: #777;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Added a larger shadow */
+}
+
+
+}
+
+.passphrase-box::before {
+    top: -20px; /* Adjusted position */
+    left: -20px; /* Adjusted position */
+}
+
+.passphrase-box::after {
+    bottom: -20px; /* Adjusted position */
+    right: -20px; /* Adjusted position */
+}
+
+/* Unlock Button */
+.unlock-btn {
+    width: 90%;
+    max-width: 500px; /* Increased max-width */
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #6d287b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.unlock-btn:hover {
+    background-color: #5b206a;
+}
+
+/* Info Text */
+.info-text {
+    font-size: 14px;
+    color: #555;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 500px; /* Increased max-width */
+}
+
+/* Link */
+.info-text a {
+    color: #007bff;
+    text-decoration: none;
+}

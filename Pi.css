@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  background-color: #6B3D9A;
+  padding: 10px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: white;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+.pi-symbol {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.pi-symbol-container {
+  margin: 20px auto;
+  display: inline-block;
+  border: 4px solid #FFA500;  /* Orange border */
+  border-radius: 50%;  /* Circle shape */
+  padding: 20px;
+}
+
+.pi-icon {
+  width: 220px;  /* Increase width of the Pi icon */
+  height: 220px;  /* Increase height of the Pi icon */
+  margin-bottom: 1px;  /* Decrease the space below the Pi icon */
+}
+}
+}
+
+h1 {
+  color: #6B3D9A;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.icons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 3 columns */
+  gap: 20px;  /* Space between icons */
+  justify-items: center;
+  margin-top: 40px;  /* Add space from previous sections */
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon img {
+  width: 60px;  /* Icon size */
+  height: 60px;  /* Icon size */
+  margin-bottom: 10px;  /* Space below the icon */
+}
+
+.icon p {
+  color: #6B3D9A;  /* Purple text */
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.explore-button {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.explore-button button {
+  background-color: #6B3D9A;  /* Purple background */
+  color: white;  /* White text */
+  font-size: 18px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.explore-button button:hover {
+  background-color: #5a2e7f;  /* Darker purple on hover */
+}
+
+.magnifying-glass {
+  margin-left: 10px;
+  font-size: 20px;
+}
+/* Centering "Welcome to the Pi Browser" */
+.welcome-text {
+  text-align: center;  /* Center the text */
+  color: #6B3D9A;  /* Purple text */
+  font-size: 24px;  /* Larger text */
+  font-weight: bold;
+  margin-top: 30px;  /* Add space above */
+}
+/* Grid for Icons */
+.icons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 3 columns */
+  gap: 20px;  /* Space between icons */
+  justify-items: center;  /* Align icons in the center */
+  margin-top: 40px;  /* Space from previous sections */
+}
+
+/* Style for each icon in the grid */
+.icon {
+  text-align: center;
+  padding: 15px;  /* Reduced space inside the box */
+  border: 2px solid #6B3D9A;  /* Purple border around the icon */
+  border-radius: 10px;  /* Rounded corners */
+  background-color: #F3F3F3;  /* Light gray background */
+  width: 100px;  /* Reduced width of each box */
+  height: 120px;  /* Reduced height of each box */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow for the box */
+}
+
+/* Adjusted icon size inside the box */
+.icon img {
+  width: 70px;  /* Adjusted icon size */
+  height: 70px;  /* Adjusted icon size */
+  margin-bottom: 10px;  /* Space below the icon */
+}
+
+/* Icon text */
+.icon p {
+  color: #6B3D9A;  /* Purple text */
+  font-size: 12px;  /* Smaller text size for labels */
+  margin: 0;
+  font-weight: bold;  /* Bold font for icon labels */
+}
+<div class="pi-circle">
+  <span class="pi-symbol">π</span> <!-- Pi symbol -->
+</div>
